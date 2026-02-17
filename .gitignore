@@ -2,10 +2,6 @@ dbdata
 .idea/
 files/
 
-# personal notes
-docs/dictionary
-docs/_fixes
-
 # outputs
 outputs/
 
@@ -22,3 +18,8 @@ database/northwind.sql
 # macOS
 .DS_Store
 **/.DS_Store
+
+# personal
+PROJECT_README.md
+docs/dictionary
+docs/_fixes
