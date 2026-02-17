@@ -1,25 +1,38 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# postgres
 dbdata
 .idea/
 files/
 
-# outputs
-outputs/
-
 # External repos / local DB setup
+database/northwind.sql
 northwind_psql/
 
 #
-**docs/
-**logs/
-**test/
-
-database/northwind.sql
-
-# macOS
-.DS_Store
-**/.DS_Store
+docs/logs/
+test/*.csv
+test/*.out
 
 # personal
 PROJECT_README.md
 docs/dictionary
 docs/_fixes
+
+# outputs (generated)
+outputs/
+reports/figures/
+
+# notebooks
+.ipynb_checkpoints/
+
+# postgres / temp
+*.log
+*.tmp
