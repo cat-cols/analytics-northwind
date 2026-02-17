@@ -44,15 +44,47 @@ and 91 customers to extract actionable business insights using SQL.
 4. **Investigate shipping delays** - some countries average 15+ days
 5. **Product bundling opportunity** - certain products frequently bought together
 
-## SQL Techniques Demonstrated
-- Complex JOINs (INNER, LEFT, multiple tables)
+## 💻 SQL Techniques Demonstrated
+
+This project showcases advanced SQL proficiency including:
+
+### Window Functions
+- `LAG()` for year-over-year comparisons
+- `ROW_NUMBER()` for ranking
+- `PARTITION BY` for grouped calculations
+- `SUM() OVER()` for running totals
+
+### Common Table Expressions (CTEs)
+- Multi-level CTEs for complex calculations
+- Recursive logic for time-series analysis
+- Modular query design for readability
+
+### Advanced Aggregations
+- `PERCENTILE_CONT()` for median calculations
+- `FILTER` clause for conditional aggregations
+- `HAVING` for post-aggregation filtering
+
+### Business Logic
+- Revenue recognition with discount application
+- Customer segmentation (RFM analysis)
+- Pareto analysis (80/20 rule validation)
+- Inventory status classification
+
+### Data Quality
+- Explicit NULL handling with `COALESCE()`
+- Type casting to prevent calculation errors
+- Division by zero protection with `NULLIF()`
+- Data validation through HAVING clauses
+
+<!-- ## SQL Techniques Demonstrated -->
+<!-- - Complex JOINs (INNER, LEFT, multiple tables)
 - Window functions (ROW_NUMBER, LAG, SUM OVER)
 - Common Table Expressions (CTEs)
 - Subqueries
 - Aggregations (SUM, AVG, COUNT, MIN, MAX)
 - Date functions
 - CASE statements for segmentation
-- HAVING clauses
+- HAVING clauses -->
 
 ## Files in This Repository
 - `01_customer_analysis.sql` - Customer segmentation, LTV, retention

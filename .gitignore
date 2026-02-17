@@ -1,0 +1,24 @@
+dbdata
+.idea/
+files/
+
+# personal notes
+docs/dictionary
+docs/_fixes
+
+# outputs
+outputs/
+
+# External repos / local DB setup
+northwind_psql/
+
+#
+**docs/
+**logs/
+**test/
+
+database/northwind.sql
+
+# macOS
+.DS_Store
+**/.DS_Store
