@@ -175,4 +175,4 @@ decline in 1998 is misleading - when annualized, 1998 was on track for
 
 ## Author
 Brandon Hardison - Aspiring Data Analyst
-<!-- Portfolio: [link] | LinkedIn: [link] | Email: [email] -->
+Portfolio: github.com/cat-cols | LinkedIn: linkedin.com/in/brandon-hardison | Email: brandon.hardison.555@gmail.com
