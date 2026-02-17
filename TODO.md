@@ -8,6 +8,13 @@ Last updated: 2026-02-17
 - Keep queries finance-safe (net revenue math, explicit definitions, consistent naming).
 
 ---
+**Quicklist:**
+```bash
+# 1. Fix formatting consistency (15 min)
+# Go through each file, ensure consistent indentation
+```
+
+---
 
 ## ✅ Project setup
 - [ x] Confirm PostgreSQL running locally (Homebrew service)
