@@ -99,10 +99,6 @@ This project showcases advanced SQL proficiency including:
 3. Run queries in numerical order
 4. Review results and insights
 
-## Author
-[Your Name] - Aspiring Data Analyst
-Portfolio: [link] | LinkedIn: [link] | Email: [email]
-
 ---
 
 ### **What This Project Proves:**
@@ -176,3 +172,7 @@ decline in 1998 is misleading - when annualized, 1998 was on track for
 > ⚠️ **Data Note:** `days_since_purchase` metrics are not meaningful
 > as the database ends in May 1998 and comparisons to current date
 > span 27 years.
+
+## Author
+Brandon Hardison - Aspiring Data Analyst
+<!-- Portfolio: [link] | LinkedIn: [link] | Email: [email] -->
