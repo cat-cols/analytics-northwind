@@ -12,6 +12,13 @@ Last updated: 2026-02-17
 ```bash
 # 1. Fix formatting consistency (15 min)
 # Go through each file, ensure consistent indentation
+# 2. settle on output directory structure
+# 3. Add to your root README.md:
+a Screenshots section with the 6 charts (or 3 best charts)
+a How to reproduce section:
+load DB
+run export script
+run chart script
 ```
 
 ---

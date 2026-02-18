@@ -17,7 +17,7 @@ database/northwind.sql
 northwind_psql/
 
 #
-docs/logs/
+docs/
 test/*.csv
 test/*.out
 

@@ -401,7 +401,7 @@ Portland, OR
 📧 [brandon.hardison.555@gmail.com](mailto:brandon.hardison.555@gmail.com)
 🐙 [GitHub](https://github.com/cat-cols)
 💼 [LinkedIn](https://linkedin.com/in/brandon-hardison)
-🌐 [Portfolio](https://yourportfolio.com)
+<!-- 🌐 [Portfolio](https://yourportfolio.com) -->
 
 ---
 
