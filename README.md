@@ -24,11 +24,11 @@ Comprehensive business intelligence analysis of the Northwind e-commerce databas
 ```
 analytics-northwind/
 ├── sql/                          # SQL query files (27 queries)
-│   ├── 01-customers.sql         # Customer analysis (6 queries)
-│   ├── 02-sales.sql             # Sales trends (5 queries)
-│   ├── 03-products.sql          # Product analysis (5 queries)
-│   ├── 04-employees.sql         # Employee performance (5 queries)
-│   └── 05-operations.sql        # Operational metrics (6 queries)
+│   ├── 01_customers.sql         # Customer analysis (6 queries)
+│   ├── 02_sales.sql             # Sales trends (5 queries)
+│   ├── 03_products.sql          # Product analysis (5 queries)
+│   ├── 04_employees.sql         # Employee performance (5 queries)
+│   └── 05_operations.sql        # Operational metrics (6 queries)
 ├── outputs/                      # Exported results
 │   ├── customer_analysis/
 │   ├── sales_trends/
@@ -389,6 +389,24 @@ All queries are documented with:
 25. Revenue Concentration (Pareto)
 26. Order Fulfillment Cycle Time
 27. Executive Dashboard Summary
+
+---
+
+## 📊 Interactive Dashboard
+
+View the live Tableau dashboard: [Northwind BI Dashboard](https://public.tableau.com/app/profile/yourname/viz/NorthwindBI)
+
+### Dashboard Features
+- **Executive Overview:** Real-time KPIs and growth trends
+- **Customer Intelligence:** Top customers, segmentation, retention metrics
+- **Sales Performance:** Monthly trends, seasonal patterns, YoY comparison
+- **Product Analysis:** Best sellers, category performance, revenue mix
+- **Employee Performance:** Sales rankings, performance distribution
+
+### Dashboard Screenshots
+
+![Executive Overview](docs/screenshots/executive_overview.png)
+![Customer Intelligence](docs/screenshots/customer_intelligence.png)
 
 ---
 
