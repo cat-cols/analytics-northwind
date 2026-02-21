@@ -349,6 +349,8 @@ All queries are documented with:
 | **Git** | Version control |
 | **CSV Export** | Results distribution |
 
+### Tableau
+[Tableau Viz](https://public.tableau.com/app/profile/brandon.hardison/viz/Northwind_17716260171110/ExecutiveOverview)
 ---
 
 ## 📝 Query Index
@@ -394,7 +396,7 @@ All queries are documented with:
 
 ## 📊 Interactive Dashboard
 
-View the live Tableau dashboard: [Northwind BI Dashboard](https://public.tableau.com/app/profile/yourname/viz/NorthwindBI)
+View the live Tableau dashboard: [Northwind BI Dashboard](https://public.tableau.com/app/profile/brandon.hardison/viz/Northwind_17716260171110/ExecutiveOverview)
 
 ### Dashboard Features
 - **Executive Overview:** Real-time KPIs and growth trends
@@ -436,5 +438,5 @@ This project is for portfolio demonstration purposes.
 
 ---
 
-**Last Updated:** February 17, 2026
+**Last Updated:** February 20, 2026
 **Status:** ✅ Complete & Production-Ready
