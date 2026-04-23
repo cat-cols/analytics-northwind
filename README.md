@@ -13,8 +13,11 @@
 Comprehensive business intelligence analysis of the Northwind e-commerce database using advanced SQL techniques. This project demonstrates proficiency in complex querying, window functions, CTEs, and translating data into actionable business insights.
 
 **Database:** Northwind (PostgreSQL)
+
 **Scope:** 830 orders | 2,155 line items | 91 customers | 21 countries
+
 **Time Period:** July 1996 - May 1998
+
 **Total Revenue Analyzed:** $1,265,793
 
 ---
