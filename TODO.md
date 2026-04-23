@@ -7,31 +7,6 @@ Last updated: 2026-02-17
 - Produce clean, reviewable outputs (CSV) and a short write-up (README) that explains assumptions and key findings.
 - Keep queries finance-safe (net revenue math, explicit definitions, consistent naming).
 
----
-**Quicklist:**
-```bash
-# 1. Fix formatting consistency (15 min)
-# Go through each file, ensure consistent indentation
-# 2. settle on output directory structure
-# 3. Add to your root README.md:
-a Screenshots section with the 6 charts (or 3 best charts)
-a How to reproduce section:
-load DB
-run export script
-run chart script
-# 4. Add Parameter Actions to Tableau Dashboard
-```
-
-## My recommended “merge plan” (minimal edits, maximum gain)
-
-1. Add **Schema / Data Model** section (short).
-2. Add **What This Project Proves** bullets.
-3. Move/echo the **Data Completeness note** so it appears before any YoY interpretation.
-4. Add a **one-screen Key Findings** bullet list for skimmers.
-5. Do **not** copy any of B’s conflicting numbers.
-
----
-
 ## ✅ Project setup
 - [x] Confirm PostgreSQL running locally (Homebrew service)
 - [x] Confirm `northwind` database exists and schema loaded
@@ -41,9 +16,23 @@ run chart script
   - [x] `outputs/` (generated CSVs)
   - [x] `docs/` (notes, assumptions, screenshots)
   - [x] `src/` (optional scripts for export/automation)
-- [] Create ERD
+- [ ] Create ERD
+- [ ] Rewrite the opening around a business outcome, not a learning outcome.
+- [ ] Remove or relocate the personal course-note files from the repo root.
+- [ ] Add one screenshot of lineage/docs and one concrete custom test example.
+- [ ] Give the repo a GitHub description and topics.
+- [ ] Add one section called “Key models” with 2–4 actual model names and why they exist.
 
----
+**Quicklist:**
+- [ ] Fix formatting consistency (15 min)
+- [ ] Go through each file, ensure consistent indentation
+- [ ] settle on output directory structure
+- [ ] Add to your root README.md:
+- [ ] Add Screenshots section with the 6 charts (or 3 best charts)
+- [ ] Add 'How to reproduce section'
+- [ ] load DB
+- [ ] run export script
+- [ ] run chart script
 
 ## ✅ Data understanding and definitions
 - [ ] Document schema relationships in `README.md`
@@ -81,12 +70,15 @@ run chart script
 - [ ] Rename metrics for clarity:
   - [ ] `avg_order_line_net_revenue` vs `avg_order_value`
   - [ ] `avg_line_items_per_order` (not “lines”)
-- [ ] Add sanity-check queri
+- [ ] Add sanity-check queries
 
 
-
----
----
+# Add Parameter Actions to Tableau Dashboard
+1. Add **Schema / Data Model** section (short).
+2. Add **What This Project Proves** bullets.
+3. Move/echo the **Data Completeness note** so it appears before any YoY interpretation.
+4. Add a **one-screen Key Findings** bullet list for skimmers.
+5. Do **not** copy any of B’s conflicting numbers.
 
 Yep — there **are** a few things in **B** worth stealing for **A**, but there are also a couple landmines in B you should **not** import because they conflict with (what looks like) your real computed results in A.
 
